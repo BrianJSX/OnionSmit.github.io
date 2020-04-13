@@ -9,5 +9,5 @@ for (let index = 0; index < dem; index++) {
     animateCheck(index);
 }
 function animateCheck(i){
-    element[i].classList.add('animated', 'fadeInRight','slower', );
+    element[i].classList.add('animated', 'fadeInRight','slower','delay-3s' );
 }
