@@ -1,5 +1,6 @@
 .container{
  font-family: 'Times New Roman', Times, serif;
+ padding-bottom: 20px;
 }
 .loading-bar {
     display: flex;
@@ -28,4 +29,12 @@
 
 .contentHeader{
     color: rgb(11, 158, 151)	;
+    
+}
+.contentBox{
+    display: none;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding: 10px;
+    width: 100%;
+    
 }
